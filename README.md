@@ -26,8 +26,8 @@ Example:
 ## How are we able to access file?
 
 * You enter in terminal: `` cat index.txt ``
-* Then, the system starts looking for the file in the directory. It gets to index.text - inode 12345
-* Then, reads inode 12345 and locates actual data blocks. 
+* Then, the system starts looking for the file in the directory. It gets to **index.text - inode 12345**.
+* Then, reads **inode 12345** and locates actual data blocks. 
 * In the end, it displays the file. 
 
 ## How to check inode in Linux?
