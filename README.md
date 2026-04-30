@@ -34,3 +34,18 @@ Example:
 
 You need to type in the terminal: `` ls -i ``
 Output: `` 12345 index.txt ``
+
+## How to create a Hard Link ?
+
+To create a Hard link, you need to enter the command in the rterminal:
+
+`` ln index.txt page.txt ``
+
+Now, enter the command:
+
+`` ls -i ``
+
+12345 index.txt
+12345 page.txt
+
+In this scenarios, one file has multiple names, but same inode number. However, if we delete one, then data block does not get affected. 
