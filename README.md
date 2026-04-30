@@ -45,7 +45,11 @@ Now, enter the command:
 
 `` ls -i ``
 
+Output:
+
+```
 12345 index.txt
 12345 page.txt
+```
 
 In this scenarios, one file has multiple names, but same inode number. However, if we delete one, then data block does not get affected. 
