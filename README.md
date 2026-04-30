@@ -1,6 +1,6 @@
 # The Concept of Inodes
 
-People generally think that in Linux files system is similar to what we have in Windows. However, it is different and it consists of a combination of metadata and data. 
+People generally think that in Linux file system is similar to what we have in Windows. However, it is different and it consists of a combination of metadata and data. 
 
 ## Definition
 
@@ -25,7 +25,7 @@ Example:
  
 ## How are we able to access file?
 
-* You enter in terminal: **cat index.txt**
+* You enter in terminal: `` cat index.txt ``
 * Then, the system starts looking for the file in the directory. It gets to index.text --> inode 12345
 * Then, reads inode 12345 and locates actual data blocks. 
 * In the end, it displays the file. 
